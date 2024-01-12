@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+@media screen and (max-width:959px) {
+    h2 {
+        font-size: 3rem;
+        margin-top: 80px;
+    }
+
+    .header_inner nav {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: -300px;
+        background-color: #D2BD9B;
+        padding: 25px;
+        width: 300px;
+        height: 100vh;
+    }
+
+    .header_inner ul li {
+        margin-left: 0;
+    }
+
+    .toggle_btn {
+        display: block;
+    }
+
+    .open .mask {
+        display: block;
+    }
+
+    .open .header_inner nav {
+        opacity: 1;
+        left: 0;
+        transition: all 0.5s;
+        z-index: 20;
+    }
+
+    .open .header_inner ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .open .header_inner ul li {
+        margin-bottom: 25px;
+    }
+
+    #fv {
+        height: 100vh;
+    }
+
+    #fv img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .fv_text {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .fv_text p {
+        font-size: 3.2rem;
+        padding-top: 90px;
+    }
+
+    #about::before,
+    #about::after,
+    #news::before,
+    #menu::after {
+        display: none;
+    }
+
+    .about_inner {
+        flex-direction: column-reverse;
+    }
+
+    .about_left {
+        width: 100%;
+        margin-top: 64px;
+    }
+
+    .about_left img {
+        object-fit: cover;
+        height: 300px;
+    }
+
+    .about_right {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .about_right_title{
+        font-size: 2.4rem;
+    }
+
+    .about_right_text{
+        font-size: 1.4rem;
+    }
+
+    #news ul {
+        width: 100%;
+    }
+
+    #news ul li {
+        padding: 10px 20px;
+    }
+
+    .news_text p:last-child {
+        font-size: 1.4rem;
+    }
+
+    .news_under_bg {
+        height: 200px;
+    }
+
+    #menu p {
+        font-size: 1.6rem;
+    }
+
+    .access_inner {
+        flex-direction: column;
+    }
+
+    .access_left {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .access_left img {
+        margin: 0 auto 20px auto;
+    }
+
+    .access_right {
+        width: 80%;
+        margin-top: 32px;
+    }
+
+    /* 下層ページ */
+
+    #under_fv {
+        height: 300px;
+    }
+
+    .menu_inner {
+        padding-bottom: 800px;
+    }
+
+    .menu_list {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+
+    .news_inner_img {
+        width: 30%;
+    }
+
+    .news_flex_text {
+        width: 65%;
+    }
+
+    #page-top a{
+        display: none;
+    }
+
+
+
+    /*==========max-width:999px==========*/
+}
