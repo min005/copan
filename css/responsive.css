@@ -165,6 +165,7 @@
     
     .news_inner li{
         flex-direction: column;
+        padding: 15px;
     }
 
     .news_inner li:nth-child(even){
