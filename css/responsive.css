@@ -158,28 +158,38 @@
     #under_fv {
         height: 300px;
     }
+    
+    .news_inner li{
+        flex-direction: column;
+    }
+
+    .news_inner li:nth-child(even){
+        flex-direction: column;
+    }
+    
+    .news_inner_img {
+        width: 90%;
+    }
+
+    .news_flex_text {
+        width: 100%;
+        margin-top: 24px;
+    }
 
     .menu_list {
         grid-template-columns: 1fr 1fr;
         gap: 35px;
     }
 
-    .news_inner_img {
-        width: 30%;
-    }
-
-    .news_flex_text {
-        width: 65%;
-    }
-
+    
     #page-top a {
         display: none;
     }
-
+    
     .menu_list li img {
         border-radius: 30px;
     }
-
+    
 
 
     /*==========max-width:999px==========*/
