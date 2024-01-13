@@ -242,6 +242,7 @@ header {
     position: absolute;
     bottom: -20%;
     right: 3%;
+    z-index: 5;
 }
 
 
@@ -281,6 +282,7 @@ header {
 #news {
     padding-bottom: 100px;
     position: relative;
+    background-color: #fff;
 }
 
 #news::before {
@@ -338,11 +340,26 @@ header {
 
 .news_under_bg {
     height: 300px;
-    background-image: url(../img/news_bg.jpg);
+    /* background-image: url(../img/news_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+}
+
+.news_under_bg::after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/news_bg.jpg);
+    background-size: cover;
 }
 
 #menu {
@@ -386,6 +403,7 @@ header {
 
 #access {
     padding-bottom: 100px;
+    background-color: #fff;
 }
 
 .access_inner {

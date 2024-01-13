@@ -48,6 +48,7 @@
 
     #fv {
         height: 100vh;
+        margin-top: 0;
     }
 
     #fv img {
@@ -139,6 +140,7 @@
     }
 
     .access_left {
+        width: 100%;
         text-align: center;
         padding-left: 0;
     }
@@ -148,7 +150,7 @@
     }
 
     .access_right {
-        width: 80%;
+        width: 100%;
         margin-top: 32px;
     }
 
