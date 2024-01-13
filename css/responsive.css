@@ -105,7 +105,16 @@
     }
 
     #news ul li {
-        padding: 10px 20px;
+        padding: 10px 0;
+    }
+
+    .news_img{
+        width: 35%;
+        border-radius: 5px;
+    }
+
+    .news_text{
+        width: 65%;
     }
 
     .news_text p:last-child {
@@ -114,10 +123,15 @@
 
     .news_under_bg {
         height: 200px;
+        background-size: contain;
     }
 
     #menu p {
         font-size: 1.6rem;
+    }
+
+    .slide-items li img{
+        border-radius: 30px;
     }
 
     .access_inner {
