@@ -6,6 +6,10 @@
         margin-top: 80px;
     }
 
+    .wrapper {
+        padding: 0 24px;
+    }
+
     .header_inner nav {
         opacity: 0;
         position: absolute;
