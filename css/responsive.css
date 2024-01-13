@@ -165,7 +165,7 @@
     
     .news_inner li{
         flex-direction: column;
-        padding: 15px;
+        padding: 16px 0;
     }
 
     .news_inner li:nth-child(even){
@@ -173,11 +173,11 @@
     }
     
     .news_inner_img {
-        width: 90%;
+        width: 95%;
     }
 
     .news_flex_text {
-        width: 100%;
+        width: 95%;
         margin-top: 24px;
     }
 
